@@ -1,0 +1,9 @@
+package ins.aiite.exceptionExample;
+
+public class MyException extends Exception{
+	public MyException(String message)
+	{
+		super(message);
+	}
+
+}
